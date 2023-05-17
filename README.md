@@ -4,44 +4,44 @@
 
 ***
 
-## Resumo do projeto
+## 🔷 RESUMO DO PROJETO 
 
 Neste projeto, foi desenvolvida uma **biblioteca** de códigos, responsável por checar os links de um arquivo, do tipo Markdown (.md). Seu desempenho está na capacidade de **verificar se a extensão do arquivo é .md**, se for,ela irá abrir e **ler o arquivo**, **procurar os links disponíveis** dentro dele, e **realizar a validação** de cada um. Além disso, também é possível **visualizar estatísticas** sobre os links contidos no arquivo, como o total deles, a quantidade que funciona ou não (obtidas atráves da validação), e, quais estão repetidos. Para a **utilização da biblioteca**, existem duas formas possíveis, ou **realizando importações** (com _require_ para usá-lo no seu código), ou **rodando pelo terminal** (executável que pode ser chamado por linha de comando). Durante a visualização, é possível verificar a exibição de tabelas, apresentando a **URL** encontrada, o **texto** que aparece dentro do link, e a **rota do arquivo** onde ele foi encontrado. Como também, na parte de validação, além dessas três propriedades, são revelados os **códigos de resposta HTTP** (indicando se o link é válido ou não), e uma **mensagem de confirmação** para comprovar se está tudo em ordem, ou se houve alguma falha. É importante destacar, que, se houver algum tipo de erro, mensagens descritivas são exibidas para ajudar o usuário.
 
 ***
 
-## FLUXOGRAMA
+## 🔷 FLUXOGRAMA
 
 Antes de iniciar o projeto, foi criado um fluxograma para visualizar com excelência as etapas de desenvolvimento do mesmo, incluindo o planejamento de tarefas e objetivos, seguindo uma sequência lógica de estudos e tomada de decisões. 
 
-<img src= "files/images/FLUXOGRAMA.png" width ="800px" height ="600px"/> 
+<img src= "files/images/FLUXOGRAMA.png" width ="950px" height ="700px"/> 
 
 ***
 
-## INSTALAÇÃO
+## 🔷 INSTALAÇÃO
 
 Para instalar a biblioteca, execute o seguinte comando no terminal:
 
-### npm i md-links-vanessamenezes
+### 🔹 npm i md-links-vanessamenezes
 
 Para utilizar a versão mais recente, execute o seguinte comando no terminal:
 (Esta versão não possui atualizações de funcionalidades, somente upgrade de códigos)
 
 **A VERSÃO ACIMA FUNCIONA PERFEITAMENTE!** Caso prefira, pode utlizar!
 
-### npm i md-links-vanessamenezes@0.1.1
+### 🔹 npm i md-links-vanessamenezes@0.1.1
 
 ***
 
-## FUNCIONALIDADES
+## 🔷 FUNCIONALIDADES
 
 As funcionalidades atualmente disponíveis são:
 
-🔷 **Listagem de links**: Exibe os links encontrados nos arquivos com extensão Markdown, mostrando a URL encontrada, o texto descritivo do link e a rota do arquivo.
+🔹 **Listagem de links**: Exibe os links encontrados nos arquivos com extensão Markdown, mostrando a URL encontrada, o texto descritivo do link e a rota do arquivo.
 
-🔷 **Validação de links**: Verifica se os links encontrados nos arquivos Markdown estão funcionando corretamente, retornando oo código de resposta HTTP, que mostra se o link é válido ou não, e uma mensagem de confirmação para comprovar se está tudo em ordem (OK), ou se houve alguma falha (FAIL). 
+🔹 **Validação de links**: Verifica se os links encontrados nos arquivos Markdown estão funcionando corretamente, retornando oo código de resposta HTTP, que mostra se o link é válido ou não, e uma mensagem de confirmação para comprovar se está tudo em ordem (OK), ou se houve alguma falha (FAIL). 
 
-🔷 **Estatísticas de links**: Exibe o número total de links encontrados no arquivo, o total de links únicos e o total de links que não estão funcionando corretamente (quebrados).
+🔹 **Estatísticas de links**: Exibe o número total de links encontrados no arquivo, o total de links únicos e o total de links que não estão funcionando corretamente (quebrados).
 
 _Essas funcionalidades se aplicam tanto para um arquivo específico, quanto para um diretório._
 
@@ -103,17 +103,23 @@ Esta biblioteca é responsável por checar somente arquivos com a extensão (.md
 
 <div align="center"> <img src= "files/images/ARQUIVOEMOUTROFORMATO.png" width ="700px" height ="100px"/> </div>
 
+***
+
 **Arquivo e/ou diretórios inexistentes:**
 
 Caso a biblioteca identifique que o arquivo e/ou a rota especificada não exista, é retornada a seguinte mensagem de erro: 
 
 <div align="center"> <img src= "files/images/ARQUIVOINESXISTENTE.png" width ="700px" height ="100px"/> </div>
 
+***
+
 **Arquivo vazio:**
 
 Caso a biblioteca identifique um arquivo que possua a extensão (.md), porém esteja vazio (sem nenhum caractere, texto e/ou links), conseguimos observar a mesma mensagem: 
 
 <div align="center"> <img src= "files/images/ARQUIVOVAZIO.png" width ="700px" height ="100px"/> </div>
+
+***
 
 **Arquivo que não possua links:**
 
@@ -123,8 +129,6 @@ Caso a biblioteca identifique um arquivo que possua a extensão (.md), porém es
 
 ***
 
-### ESTE PROJETO FOI CRIADO E DESENVOLVIDO POR:
-
-### [VANESSA MENEZES](https://github.com/VanessaNMenezes) 💙
+### 🔷 ESTE PROJETO FOI CRIADO E DESENVOLVIDO POR: [VANESSA MENEZES](https://github.com/VanessaNMenezes) 💙
 
 ***
