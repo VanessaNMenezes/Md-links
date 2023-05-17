@@ -99,7 +99,7 @@ Esse comando com as flags em conjunto (com espaço entre elas), _--stats --valid
 
 As mensagens de erro são exibidas caso haja alguma instabilidade nos comandos digitados da biblioteca ou caso tenha acontecido algum problema durante a validação dos links.
 
-### Arquivo em outro formato que não seja markdown:
+### 🧧 Arquivo em outro formato que não seja markdown:
 
 Esta biblioteca é responsável por checar somente arquivos com a extensão (.md), sendo assim, qualquer outro formato não é aceito para leitura, e aparece com a seguinte mensagem:
 
@@ -107,7 +107,7 @@ Esta biblioteca é responsável por checar somente arquivos com a extensão (.md
 
 ***
 
-### Arquivo e/ou diretórios inexistentes:
+### 🧧 Arquivo e/ou diretórios inexistentes:
 
 Caso a biblioteca identifique que o arquivo e/ou a rota especificada não exista, é retornada a seguinte mensagem de erro: 
 
@@ -115,7 +115,7 @@ Caso a biblioteca identifique que o arquivo e/ou a rota especificada não exista
 
 ***
 
-### Arquivo vazio:
+### 🧧 Arquivo vazio:
 
 Caso a biblioteca identifique um arquivo que possua a extensão (.md), porém esteja vazio (sem nenhum caractere, texto e/ou links), conseguimos observar a mesma mensagem: 
 
@@ -123,7 +123,7 @@ Caso a biblioteca identifique um arquivo que possua a extensão (.md), porém es
 
 ***
 
-### Arquivo que não possua links:
+### 🧧 Arquivo que não possua links:
 
 Caso a biblioteca identifique um arquivo que possua a extensão (.md), porém este arquivo não contenha nenhum link dentro dele, a mensagem de erro que aparece é a seguinte: 
 
