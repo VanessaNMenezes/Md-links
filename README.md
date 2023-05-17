@@ -47,7 +47,7 @@ _Essas funcionalidades se aplicam tanto para um arquivo específico, quanto para
 
 ***
 
-## INSTRUÇÕES DE USO E COMANDOS
+## 🔷 INSTRUÇÕES DE USO E COMANDOS
 
 #### 🔹 Listagem de Links 🔹
 
@@ -65,7 +65,7 @@ Esse comando procura arquivos na rota especificada, e imprime através de uma ta
 
 Para validar os links em um arquivo de interesse, utilize o comando abaixo:
 
-**md-links ./caminhoDaPasta/nomeDoArquivo.md --validate** 
+**md-links ./caminhoDaPasta/nomeDoArquivo.md _--validate_** 
 
 Esse comando com a flag _--validate_, fará uma requisição HTTP para verificar se cada link funciona ou não, apresentando uma tabela com o código de resposta (status HTTP) e uma mensagem correspondente (OK em caso de sucesso ou FAIL, se houver alguma falha). Exatamente como o exemplo abaixo:
 
@@ -77,7 +77,7 @@ Esse comando com a flag _--validate_, fará uma requisição HTTP para verificar
 
 Para verificar a quantidade total de links e os links únicos em um arquivo de interesse, utilize o comando abaixo:
 
-**md-links ./caminhoDaPasta/nomeDoArquivo.md --stats** 
+**md-links ./caminhoDaPasta/nomeDoArquivo.md _--stats_** 
 
 Esse comando com a flag _--stats_, exibirá em uma tabela o número total de links encontrados no arquivo e o total de links únicos. A informação retorna da seguinte maneira ao usuário:
 
@@ -85,7 +85,7 @@ Esse comando com a flag _--stats_, exibirá em uma tabela o número total de lin
 
 Já para verificar a quantidade total de links, os links único e os links quebrados (que não funcionam) em um arquivo de interesse, utilize o comando abaixo:
 
-**md-links ./caminhoDaPasta/nomeDoArquivo.md --stats --validate** 
+**md-links ./caminhoDaPasta/nomeDoArquivo.md _--stats --validate_** 
 
 Esse comando com as flags em conjunto (com espaço entre elas), _--stats --validate_ exibirá em uma tabela o número total de links encontrados no arquivo, o total de links únicos, e o número total de links quebrados. A informação retorna da seguinte maneira ao usuário:
 
@@ -93,11 +93,11 @@ Esse comando com as flags em conjunto (com espaço entre elas), _--stats --valid
 
 ***
 
-#### ❌ MENSAGENS DE ERRO ❌
+## ❌ MENSAGENS DE ERRO ❌
 
 As mensagens de erro são exibidas caso haja alguma instabilidade nos comandos digitados da biblioteca ou caso tenha acontecido algum problema durante a validação dos links.
 
-**Arquivo em outro formato que não seja markdown:**
+### Arquivo em outro formato que não seja markdown:
 
 Esta biblioteca é responsável por checar somente arquivos com a extensão (.md), sendo assim, qualquer outro formato não é aceito para leitura, e aparece com a seguinte mensagem:
 
@@ -105,7 +105,7 @@ Esta biblioteca é responsável por checar somente arquivos com a extensão (.md
 
 ***
 
-**Arquivo e/ou diretórios inexistentes:**
+### Arquivo e/ou diretórios inexistentes:
 
 Caso a biblioteca identifique que o arquivo e/ou a rota especificada não exista, é retornada a seguinte mensagem de erro: 
 
@@ -113,7 +113,7 @@ Caso a biblioteca identifique que o arquivo e/ou a rota especificada não exista
 
 ***
 
-**Arquivo vazio:**
+### Arquivo vazio:
 
 Caso a biblioteca identifique um arquivo que possua a extensão (.md), porém esteja vazio (sem nenhum caractere, texto e/ou links), conseguimos observar a mesma mensagem: 
 
@@ -121,7 +121,7 @@ Caso a biblioteca identifique um arquivo que possua a extensão (.md), porém es
 
 ***
 
-**Arquivo que não possua links:**
+### Arquivo que não possua links:
 
 Caso a biblioteca identifique um arquivo que possua a extensão (.md), porém este arquivo não contenha nenhum link dentro dele, a mensagem de erro que aparece é a seguinte: 
 
@@ -129,6 +129,6 @@ Caso a biblioteca identifique um arquivo que possua a extensão (.md), porém es
 
 ***
 
-### 🔷 ESTE PROJETO FOI CRIADO E DESENVOLVIDO POR: [VANESSA MENEZES](https://github.com/VanessaNMenezes) 💙
+#### 🔷 ESTE PROJETO FOI CRIADO E DESENVOLVIDO POR: [VANESSA MENEZES](https://github.com/VanessaNMenezes) 💙
 
 ***
