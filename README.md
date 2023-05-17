@@ -14,7 +14,7 @@ Neste projeto, foi desenvolvida uma **biblioteca** de códigos, responsável por
 
 Antes de iniciar o projeto, foi criado um fluxograma para visualizar com excelência as etapas de desenvolvimento do mesmo, incluindo o planejamento de tarefas e objetivos, seguindo uma sequência lógica de estudos e tomada de decisões. 
 
-<img src= "files/images/FLUXOGRAMA.png" width ="950px" height ="700px"/> 
+<img src= "files/images/FLUXOGRAMA.png" width ="950px" height ="600px"/> 
 
 ***
 
@@ -57,7 +57,7 @@ Para localizar os links em um arquivo de interesse, utilize o comando abaixo:
 
 Esse comando procura arquivos na rota especificada, e imprime através de uma tabela os links encontrados, juntamente com o texto descritivo do link e a rota do arquivo em que cada link foi encontrado, como o exemplo abaixo: 
 
-<img src= "files/images/CAMINHODOARQUIVO.png" width ="750px" height ="500px"/> 
+<img src= "files/images/CAMINHODOARQUIVO.png" width ="950px" height ="450px"/> 
 
 ***
 
@@ -69,7 +69,7 @@ Para validar os links em um arquivo de interesse, utilize o comando abaixo:
 
 Esse comando com a flag _--validate_, fará uma requisição HTTP para verificar se cada link funciona ou não, apresentando uma tabela com o código de resposta (status HTTP) e uma mensagem correspondente (OK em caso de sucesso ou FAIL, se houver alguma falha). Exatamente como o exemplo abaixo:
 
-<img src= "files/images/VALIDATE.png" width ="850px" height ="700px"/> 
+<img src= "files/images/VALIDATE.png" width ="980px" height ="450px"/> 
 
 *** 
 
@@ -81,7 +81,7 @@ Para verificar a quantidade total de links e os links únicos em um arquivo de i
 
 Esse comando com a flag _--stats_, exibirá em uma tabela o número total de links encontrados no arquivo e o total de links únicos. A informação retorna da seguinte maneira ao usuário:
 
-<div align="center"> <img src= "files/images/STATS.png" width ="450px" height ="200px"/> </div>
+<div align="center"> <img src= "files/images/STATS.png" width ="400px" height ="200px"/> </div>
 
 Já para verificar a quantidade total de links, os links único e os links quebrados (que não funcionam) em um arquivo de interesse, utilize o comando abaixo:
 
@@ -89,7 +89,7 @@ Já para verificar a quantidade total de links, os links único e os links quebr
 
 Esse comando com as flags em conjunto (com espaço entre elas), _--stats --validate_ exibirá em uma tabela o número total de links encontrados no arquivo, o total de links únicos, e o número total de links quebrados. A informação retorna da seguinte maneira ao usuário:
 
-<div align="center"> <img src= "files/images/STATSANDVALIDATE.png" width ="450px" height ="200px"/> </div>
+<div align="center"> <img src= "files/images/STATSANDVALIDATE.png" width ="450px" height ="300px"/> </div>
 
 ***
 
@@ -101,7 +101,7 @@ As mensagens de erro são exibidas caso haja alguma instabilidade nos comandos d
 
 Esta biblioteca é responsável por checar somente arquivos com a extensão (.md), sendo assim, qualquer outro formato não é aceito para leitura, e aparece com a seguinte mensagem:
 
-<div align="center"> <img src= "files/images/ARQUIVOEMOUTROFORMATO.png" width ="700px" height ="100px"/> </div>
+<div align="center"> <img src= "files/images/ARQUIVOEMOUTROFORMATO.png" width ="750px" height ="70px"/> </div>
 
 ***
 
@@ -109,7 +109,7 @@ Esta biblioteca é responsável por checar somente arquivos com a extensão (.md
 
 Caso a biblioteca identifique que o arquivo e/ou a rota especificada não exista, é retornada a seguinte mensagem de erro: 
 
-<div align="center"> <img src= "files/images/ARQUIVOINESXISTENTE.png" width ="700px" height ="100px"/> </div>
+<div align="center"> <img src= "files/images/ARQUIVOINESXISTENTE.png" width ="700px" height ="70px"/> </div>
 
 ***
 
@@ -117,7 +117,7 @@ Caso a biblioteca identifique que o arquivo e/ou a rota especificada não exista
 
 Caso a biblioteca identifique um arquivo que possua a extensão (.md), porém esteja vazio (sem nenhum caractere, texto e/ou links), conseguimos observar a mesma mensagem: 
 
-<div align="center"> <img src= "files/images/ARQUIVOVAZIO.png" width ="700px" height ="100px"/> </div>
+<div align="center"> <img src= "files/images/ARQUIVOVAZIO.png" width ="700px" height ="70px"/> </div>
 
 ***
 
@@ -125,7 +125,7 @@ Caso a biblioteca identifique um arquivo que possua a extensão (.md), porém es
 
 Caso a biblioteca identifique um arquivo que possua a extensão (.md), porém este arquivo não contenha nenhum link dentro dele, a mensagem de erro que aparece é a seguinte: 
 
-<div align="center"> <img src= "files/images/ARQUIVOSEMLINKS.png" width ="700px" height ="100px"/> </div>
+<div align="center"> <img src= "files/images/ARQUIVOSEMLINKS.png" width ="700px" height ="70px"/> </div>
 
 ***
 
