@@ -85,7 +85,7 @@ Esse comando com a flag _--stats_, exibirá em uma tabela o número total de lin
 
 ***
 
-Já para verificar a quantidade total de links, os links único e os links quebrados (que não funcionam) em um arquivo de interesse, utilize o comando abaixo:
+Já para verificar a quantidade total de links, os links únicos e os links quebrados (que não funcionam) em um arquivo de interesse, utilize o comando abaixo:
 
 **md-links ./caminhoDaPasta/nomeDoArquivo.md _--stats --validate_** 
 
@@ -111,7 +111,7 @@ Esta biblioteca é responsável por checar somente arquivos com a extensão (.md
 
 Caso a biblioteca identifique que o arquivo e/ou a rota especificada não exista, é retornada a seguinte mensagem de erro: 
 
-<div align="center"> <img src= "files/images/ARQUIVOINESXISTENTE.png" width ="700px" height ="70px"/> </div>
+<div align="center"> <img src= "files/images/ARQUIVOINESXISTENTE.png" width ="750px" height ="70px"/> </div>
 
 ***
 
@@ -127,7 +127,7 @@ Caso a biblioteca identifique um arquivo que possua a extensão (.md), porém es
 
 Caso a biblioteca identifique um arquivo que possua a extensão (.md), porém este arquivo não contenha nenhum link dentro dele, a mensagem de erro que aparece é a seguinte: 
 
-<div align="center"> <img src= "files/images/ARQUIVOSEMLINKS.png" width ="700px" height ="70px"/> </div>
+<div align="center"> <img src= "files/images/ARQUIVOSEMLINKS.png" width ="700px" height ="60px"/> </div>
 
 ***
 
