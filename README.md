@@ -14,7 +14,7 @@ Neste projeto, foi desenvolvida uma **biblioteca** de códigos, responsável por
 
 Antes de iniciar o projeto, foi criado um fluxograma para visualizar com excelência as etapas de desenvolvimento do mesmo, incluindo o planejamento de tarefas e objetivos, seguindo uma sequência lógica de estudos e tomada de decisões. 
 
-<img src= "files/images/FLUXOGRAMA.png" width ="950px" height ="600px"/> 
+<img src= "files/images/FLUXOGRAMA.png" width ="950px" height ="550px"/> 
 
 ***
 
@@ -27,7 +27,7 @@ Para instalar a biblioteca, execute o seguinte comando no terminal:
 Para utilizar a versão mais recente, execute o seguinte comando no terminal:
 (Esta versão não possui atualizações de funcionalidades, somente upgrade de códigos)
 
-**A VERSÃO ACIMA FUNCIONA PERFEITAMENTE!** Caso prefira, pode utlizar!
+**A VERSÃO ACIMA FUNCIONA PERFEITAMENTE!** Caso prefira, pode utilizar!
 
 ### 🔹 npm i md-links-vanessamenezes@0.1.1
 
@@ -89,7 +89,7 @@ Já para verificar a quantidade total de links, os links único e os links quebr
 
 **md-links ./caminhoDaPasta/nomeDoArquivo.md _--stats --validate_** 
 
-Esse comando com as flags em conjunto (com espaço entre elas), _--stats --validate_ exibirá em uma tabela o número total de links encontrados no arquivo, o total de links únicos, e o número total de links quebrados. A informação retorna da seguinte maneira ao usuário:
+Esse comando com as flags em conjunto (com espaço entre elas), _--stats --validate_, exibirá em uma tabela o número total de links encontrados no arquivo, o total de links únicos, e o número total de links quebrados. A informação retorna da seguinte maneira ao usuário:
 
 <div align="center"> <img src= "files/images/STATSANDVALIDATE.png" width ="400px" height ="250px"/> </div>
 
@@ -99,7 +99,7 @@ Esse comando com as flags em conjunto (com espaço entre elas), _--stats --valid
 
 As mensagens de erro são exibidas caso haja alguma instabilidade nos comandos digitados da biblioteca ou caso tenha acontecido algum problema durante a validação dos links.
 
-### 🧧 Arquivo em outro formato que não seja markdown:
+### 🔻 Arquivo em outro formato que não seja markdown:
 
 Esta biblioteca é responsável por checar somente arquivos com a extensão (.md), sendo assim, qualquer outro formato não é aceito para leitura, e aparece com a seguinte mensagem:
 
@@ -107,7 +107,7 @@ Esta biblioteca é responsável por checar somente arquivos com a extensão (.md
 
 ***
 
-### 🧧 Arquivo e/ou diretórios inexistentes:
+### 🔻 Arquivo e/ou diretórios inexistentes:
 
 Caso a biblioteca identifique que o arquivo e/ou a rota especificada não exista, é retornada a seguinte mensagem de erro: 
 
@@ -115,7 +115,7 @@ Caso a biblioteca identifique que o arquivo e/ou a rota especificada não exista
 
 ***
 
-### 🧧 Arquivo vazio:
+### 🔻 Arquivo vazio:
 
 Caso a biblioteca identifique um arquivo que possua a extensão (.md), porém esteja vazio (sem nenhum caractere, texto e/ou links), conseguimos observar a mesma mensagem: 
 
@@ -123,7 +123,7 @@ Caso a biblioteca identifique um arquivo que possua a extensão (.md), porém es
 
 ***
 
-### 🧧 Arquivo que não possua links:
+### 🔻 Arquivo que não possua links:
 
 Caso a biblioteca identifique um arquivo que possua a extensão (.md), porém este arquivo não contenha nenhum link dentro dele, a mensagem de erro que aparece é a seguinte: 
 
