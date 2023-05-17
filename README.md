@@ -49,7 +49,7 @@ _Essas funcionalidades se aplicam tanto para um arquivo específico, quanto para
 
 ## 🔷 INSTRUÇÕES DE USO E COMANDOS
 
-#### 🔹 Listagem de Links 🔹
+### 🔹 Listagem de Links 🔹
 
 Para localizar os links em um arquivo de interesse, utilize o comando abaixo:
 
@@ -61,7 +61,7 @@ Esse comando procura arquivos na rota especificada, e imprime através de uma ta
 
 ***
 
-#### 🔹 Validação de Links 🔹
+### 🔹 Validação de Links 🔹
 
 Para validar os links em um arquivo de interesse, utilize o comando abaixo:
 
@@ -69,11 +69,11 @@ Para validar os links em um arquivo de interesse, utilize o comando abaixo:
 
 Esse comando com a flag _--validate_, fará uma requisição HTTP para verificar se cada link funciona ou não, apresentando uma tabela com o código de resposta (status HTTP) e uma mensagem correspondente (OK em caso de sucesso ou FAIL, se houver alguma falha). Exatamente como o exemplo abaixo:
 
-<img src= "files/images/VALIDATE.png" width ="980px" height ="450px"/> 
+<img src= "files/images/VALIDATE.png" width ="980px" height ="420px"/> 
 
 *** 
 
-#### 🔎 Estatísticas de links 🔎
+### 🔎 Estatísticas de links 🔎
 
 Para verificar a quantidade total de links e os links únicos em um arquivo de interesse, utilize o comando abaixo:
 
@@ -83,13 +83,15 @@ Esse comando com a flag _--stats_, exibirá em uma tabela o número total de lin
 
 <div align="center"> <img src= "files/images/STATS.png" width ="400px" height ="200px"/> </div>
 
+***
+
 Já para verificar a quantidade total de links, os links único e os links quebrados (que não funcionam) em um arquivo de interesse, utilize o comando abaixo:
 
 **md-links ./caminhoDaPasta/nomeDoArquivo.md _--stats --validate_** 
 
 Esse comando com as flags em conjunto (com espaço entre elas), _--stats --validate_ exibirá em uma tabela o número total de links encontrados no arquivo, o total de links únicos, e o número total de links quebrados. A informação retorna da seguinte maneira ao usuário:
 
-<div align="center"> <img src= "files/images/STATSANDVALIDATE.png" width ="450px" height ="300px"/> </div>
+<div align="center"> <img src= "files/images/STATSANDVALIDATE.png" width ="400px" height ="250px"/> </div>
 
 ***
 
