@@ -131,6 +131,6 @@ Caso a biblioteca identifique um arquivo que possua a extensão (.md), porém es
 
 ***
 
-#### 🔷 ESTE PROJETO FOI CRIADO E DESENVOLVIDO POR: [VANESSA MENEZES](https://github.com/VanessaNMenezes) 💙
+### 🔷 ESTE PROJETO FOI CRIADO E DESENVOLVIDO POR: [VANESSA MENEZES](https://github.com/VanessaNMenezes) 💙
 
 ***
